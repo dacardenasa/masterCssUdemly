@@ -325,7 +325,55 @@
   }
 
   #aside {
-    display:none;
+    width: 100%;
+    min-height: 1060px;
+    margin: 5px;
+  }
+
+  .aside-box {
+    width: 65%;
+  }
+
+  #aside h3 {
+    font-size: 31px;
+    text-align: center;
+    height: 50px;
+  }
+
+  #search {
+    height: 50px;
+  }
+
+  #aside input[type="text"] {
+    width: 87%;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  #aside input[type="button"] {
+    font-size: 28px;
+  }
+
+  #login input[type="email"], #login input[type="password"] {
+    width: 80%;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  #login #user {
+    margin-left: 23px;
+    font-size: 20px;
+  }
+
+  #login #password {
+    margin-left: 26px;
+    font-size: 25px;
+  }
+
+  #aside input[type="submit"] {
+    width: 88%;
+    height: 40px;
+    font-size: 25px;
   }
 
   #articles {
@@ -334,7 +382,7 @@
   }
 
   #footer {
-    height: 900px;
+    height: 1000px;
   }
 
   #menu-footer {
@@ -387,6 +435,22 @@
     font-size: 20px;
   }
 
+  #search {
+    width: 100%;
+  }
+
+  .aside-box {
+    width: 90%;
+  }
+
+  #aside input[type="text"] {
+    width: 75%;
+  }
+
+  #aside input[type="button"] {
+    margin-left: 20px;
+  }
+
 }
 
 @media (max-width: 360px) {
@@ -402,6 +466,19 @@
   #articles .data {
     width: 225px;
   }
+
+}
+
+@media (max-width: 320px) {
+ 
+  #login #user {
+    margin-left: 20px;
+  }
+
+  #login #password {
+    margin-left: 23px;
+  }
+  
 
 }
 
