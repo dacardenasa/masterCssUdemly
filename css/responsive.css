@@ -333,6 +333,10 @@
     margin-left: 0px;
   }
 
+  #footer {
+    height: 900px;
+  }
+
   #menu-footer {
     display: none;
   }
@@ -391,10 +395,13 @@
     margin: 40px -8px;
   }
 
+  #articles article h4 {
+    font-size: 20px;
+  }
+
   #articles .data {
     width: 225px;
   }
-
 
 }
 
