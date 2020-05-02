@@ -333,6 +333,10 @@
     margin-left: 0px;
   }
 
+  #footer {
+    height: 900px;
+  }
+
   #menu-footer {
     display: none;
   }
